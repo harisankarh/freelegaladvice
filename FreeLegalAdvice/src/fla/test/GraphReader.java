@@ -35,8 +35,8 @@ public class GraphReader {
 			
 			String inputLine;
 			
-			File f1 = new File("/home/harisankarh/Documents/data/FreeLegalAdvice7dec2012.txt");
-			FileInputStream fis = new FileInputStream(f1);
+			File inputFile = new File(args[0]);
+			FileInputStream fis = new FileInputStream(inputFile);
 			
 			String jsonTxt = IOUtils.toString(fis);
 			Object obj = JSONValue.parse(jsonTxt);
