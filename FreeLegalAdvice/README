@@ -1,5 +1,10 @@
 Code to create an organized document containing the question-answers in the Facebook free legal advice community( http://www.facebook.com/groups/452137104798374 )
 
+Required libraries
+------------------
+Apache commons io ( http://commons.apache.org/io/download_io.cgi ) Version 2.4 tested
+Json simple ( http://code.google.com/p/json-simple/downloads/list ) Version 1.1 tested
+
 
 
 Steps:
